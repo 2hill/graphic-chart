@@ -1,0 +1,19 @@
+.button {
+  border: solid 2px black;
+  padding: 5px;
+  border-radius: 4px;
+  transition: all;
+}
+.button-neutre:hover {
+  border: solid 2px;
+  color: grey;
+}
+.button-ok:hover {
+  color: green;
+  transform: scale(1.1);
+  box-shadow: 2px 2px red;
+}
+.button-annuler:hover {
+  color: #aaa;
+  background-color: purple;
+}
